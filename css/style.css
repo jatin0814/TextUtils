@@ -20,6 +20,7 @@ h2{
 	color: #fff;
 	font-size: 20px;
 	padding: 4px 16px;
+	width: 97.5%;
 }
 #footer{
 	text-align: center;
@@ -27,17 +28,11 @@ h2{
 #container1{
 	margin: 110px 220px;
 }
-#input{
-	width: 800px;
+#input,#output{
+	min-width: 80%;
 	height: 230px;
 	opacity:.3;
 }
-#output{
-	width: 800px;
-	height: 230px;
-	opacity:.3;
-}
-
 button{
 	width:80px;
 	height: 30px;

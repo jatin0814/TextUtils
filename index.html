@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TextUtils</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header id="header"><h1>TextUtils</h1></header>
+<div id="container1">
+	<h2>Input</h2>
+<textarea id="input"></textarea><br><br>
+	<form id="form" action="#" method="post">
+		<label for="puncuations" class="container">Remove Puncuations
+			<input type="radio" id="puncuations" name="task" value="puncuations" checked="checked">
+			<span class="checkmark"></span>
+		</label>
+		
+		<label for="linebreak" class="container">Remove Linebreaks
+			<input type="radio" id="linebreak" name="task" value="linebreak" checked="checked">
+			<span class="checkmark"></span>
+		</label>
+		
+		<label for="uppercase" class="container">To UPPERCASE
+			<input type="radio" id="uppercase" name="task" value="uppercase" checked="checked">
+			<span class="checkmark"></span>
+		</label>
+		
+		<label for="lowercase" class="container">To lower case
+			<input type="radio" id="lowercase" name="task" value="lowercase" checked="checked">
+			<span class="checkmark"></span>
+		</label>
+		<button type="button" onclick="displayRadioValue()">GO</button><br>
+	</form>
+	<h2>Output</h2>
+<textarea id="output"></textarea>
+</div>
+<footer id="footer">Created by Jatin Gupta</footer>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
